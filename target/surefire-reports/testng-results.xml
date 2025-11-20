@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-16T19:35:57 EET" name="All Test Suite" finished-at="2025-11-16T19:37:04 EET" duration-ms="67081">
+    <groups>
+      <group name="smoke">
+        <method signature="FormPageTest.fillForm(java.util.HashMap)[pri:1, instance:com.appium.test.android.FormPageTest@6c1a5b54]" name="fillForm" class="com.appium.test.android.FormPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-11-16T19:35:57 EET" name="/Users/hussien/Documents/AppiumRevision" finished-at="2025-11-16T19:37:04 EET" duration-ms="67081">
+      <class name="com.appium.test.android.FormPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.appium.test.android.FormPageTest@6c1a5b54]" started-at="2025-11-16T19:35:57 EET" name="setUp" finished-at="2025-11-16T19:36:03 EET" duration-ms="5574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillForm(java.util.HashMap)[pri:1, instance:com.appium.test.android.FormPageTest@6c1a5b54]" started-at="2025-11-16T19:36:03 EET" name="fillForm" data-provider="getData" finished-at="2025-11-16T19:36:31 EET" duration-ms="28002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=Male, name=Hussien, country=Cuba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.appium.test.android.FormPageTest@6c1a5b54]" started-at="2025-11-16T19:36:31 EET" name="tearDown" finished-at="2025-11-16T19:36:31 EET" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.appium.test.android.FormPageTest@6c1a5b54]" started-at="2025-11-16T19:36:31 EET" name="setUp" finished-at="2025-11-16T19:36:35 EET" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillForm(java.util.HashMap)[pri:1, instance:com.appium.test.android.FormPageTest@6c1a5b54]" started-at="2025-11-16T19:36:35 EET" name="fillForm" data-provider="getData" finished-at="2025-11-16T19:37:04 EET" duration-ms="28321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=Female, name=Luciana, country=Cuba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.appium.test.android.FormPageTest@6c1a5b54]" started-at="2025-11-16T19:37:04 EET" name="tearDown" finished-at="2025-11-16T19:37:04 EET" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.appium.test.android.FormPageTest -->
+    </test> <!-- /Users/hussien/Documents/AppiumRevision -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

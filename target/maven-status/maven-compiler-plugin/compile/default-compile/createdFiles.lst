@@ -1,0 +1,10 @@
+com/appium/automation/pageObjects/iOS/AlertViews.class
+Utilities/AppiumUtilities$1.class
+com/appium/automation/pageObjects/android/FormPage$GenderType.class
+com/appium/automation/pageObjects/android/ProductCatalog.class
+com/appium/automation/pageObjects/android/FormPage.class
+Utilities/AndroidGestures.class
+com/appium/automation/pageObjects/iOS/HomePage.class
+Utilities/IOSGestures.class
+Utilities/AppiumUtilities.class
+com/appium/automation/pageObjects/android/CartPage.class
