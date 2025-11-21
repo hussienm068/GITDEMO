@@ -34,6 +34,7 @@ public class FormPageTest extends BaseTest
     }
 
 
+
     @Test(priority = 1 , dataProvider = "getData" , groups = "smoke")
     public void fillForm(HashMap<String , Object> input) throws InterruptedException
     {
@@ -51,6 +52,7 @@ public class FormPageTest extends BaseTest
         cp.markCheckBox();
         cp.clickOnProceedButton();
         softAssert.assertAll();
+        System.out.println("Hello World !!");
     }
 
     @AfterMethod
